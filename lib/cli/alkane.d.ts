@@ -1,0 +1,14 @@
+import { Command } from 'commander';
+export declare const alkanesTrace: Command;
+export declare const alkaneContractDeploy: Command;
+export declare const alkaneTokenDeploy: Command;
+export declare const alkaneExecute: Command;
+export declare const alkaneRemoveLiquidity: Command;
+export declare const alkaneSwap: Command;
+export declare const alkaneSplit: Command;
+export declare const alkaneSend: Command;
+export declare const alkaneCreatePool: Command;
+export declare const alkaneAddLiquidity: Command;
+export declare const alkaneSimulate: Command;
+export declare const alkaneGetAllPoolsDetails: Command;
+export declare const alkaneBumpFee: Command;

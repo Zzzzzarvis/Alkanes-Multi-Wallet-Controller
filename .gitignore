@@ -1,0 +1,60 @@
+# 环境配置文件 - 包含敏感信息，不上传
+.env
+.env.*
+.env.wallet*
+
+# 依赖包
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 日志文件
+*.log
+log/
+logs/
+
+# 临时文件
+*.tmp
+*.temp
+temp/
+tmp/
+
+# 构建输出
+dist/
+build/
+out/
+
+# IDE配置
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 钱包地址缓存
+wallet_addresses.json
+
+# 交易相关日志和缓存
+rbf_log.txt
+rbf_output_*.txt
+current_tx_id.txt
+rbf_success.log
+mint-diesel.log
+
+# 测试脚本输出
+*.sh
+*.md
+
+# 其他敏感或临时文件
+test-*.js
+debug-*.js
+analyze-*.js
+check-*.js
+create-*.js
+update-*.js
+retry-*.js
+mint-*.js
